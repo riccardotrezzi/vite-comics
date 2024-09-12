@@ -10,11 +10,11 @@ export default {
 </script>
 
 <template>
-  <header>
+  <main>
     <h1>
       {{ message }}
     </h1>
-  </header>
+  </main>
 </template>
 
 <style scoped>
