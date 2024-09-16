@@ -99,6 +99,12 @@ header {
   padding: 10px 0;
 }
 
+header span{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 header ul {
   list-style: none;
   display: flex;
@@ -106,14 +112,16 @@ header ul {
 }
 
 header ul li a {
-  margin: 0 10px;
+  margin: 0px 10px;
+  padding-bottom:40px;
   text-decoration: none;
   color: black;
+  font-size: 14px;
 }
 
 header ul li a:hover {
   color: #097CEB;
-  
+  border-bottom: 5px solid #097CEB;
 }
 
 </style>
