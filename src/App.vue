@@ -19,7 +19,9 @@ export default {
   },
   // 2. Dichiarazione del componente
   components: {
-    AppHeader
+    AppHeader,
+    AppMain,
+    AppFooter
   },
   methods: {
   }
@@ -32,10 +34,86 @@ export default {
   <AppMain />
   <AppFooter />
   <div>
+    <header>
+      <div class="container">
+        <span>
+          <img src="./assets/vue-dc-comics-1/img/dc-logo.png" alt="">
+
+          <nav>
+            <ul>
+              <li>
+                <a href="#">CHARACTERS</a>
+              </li>
+              <li>
+                <a href="#">COMICS</a>
+              </li>
+              <li>
+                <a href="#">MOVIES</a>
+              </li>
+              <li>
+                <a href="#">TV</a>
+              </li>
+              <li>
+                <a href="#">GAMES</a>
+              </li>
+              <li>
+                <a href="#">COLLECTIBLES</a>
+              </li>
+              <li>
+                <a href="#">VIDEOS</a>
+              </li>
+              <li>
+                <a href="#">FANS</a>
+              </li>
+              <li>
+                <a href="#">NEWS</a>
+              </li>
+              <li>
+                <a href="#">SHOP</a>
+              </li>
+            </ul>
+          </nav>
+        </span>
+        
+      </div>
+    </header>
+
+    <main>
+      <div class="container">
+        MAIN
+      </div>
+    </main>
+      
+    <footer>
+      <div class="container">
+        FOOTER
+      </div>
+    </footer>
     
   </div>
 </template>
 
 <style scoped>
+
+header {
+  padding: 10px 0;
+}
+
+header ul {
+  list-style: none;
+  display: flex;
+  justify-content: end;
+}
+
+header ul li a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: black;
+}
+
+header ul li a:hover {
+  color: #097CEB;
+  
+}
 
 </style>

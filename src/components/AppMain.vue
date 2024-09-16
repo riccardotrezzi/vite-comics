@@ -2,8 +2,8 @@
 export default {
   data() {
     return {
-      message: 'Template Vite + Vue'
-    }
+      message: ''
+    };
   }
 
 }
@@ -18,11 +18,4 @@ export default {
 </template>
 
 <style scoped>
-header{
-  background-color: aquamarine;
-  text-align: center;
-}
-h1 {
-  color: black;
-}
 </style>
